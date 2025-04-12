@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F2EC;
+    color: #6D5647;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFF;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logout {
+    background: none;
+    border: 1px solid #D3B9A3;
+    color: #D3B9A3;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input,
+.search-box select,
+.search-box button {
+    padding: 5px;
+    border: 1px solid #D3B9A3;
+    background-color: #FFF;
+    color: #6D5647;
+}
+
+.search {
+    background-color: #A48C75;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: #D3B9A3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.export {
+    background-color: #D3B9A3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+thead {
+    background-color: #A48C75;
+    color: white;
+}
+
+td,
+th {
+    border: 1px solid #D3B9A3;
+    padding: 10px;
+}
+
+.detail {
+    background: none;
+    border: 1px solid #D3B9A3;
+    color: #D3B9A3;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    background: none;
+    border: 1px solid #D3B9A3;
+    color: #6D5647;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination .active {
+    background-color: #A48C75;
+    color: white;
+}
